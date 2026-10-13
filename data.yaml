@@ -1,0 +1,8 @@
+yaml_content = """train: /content/train/images
+val: /content/valid/images
+test: /content/test/images
+nc: 1
+names: ['potholes']
+"""
+with open('/content/data.yaml', 'w') as f:
+    f.write(yaml_content)

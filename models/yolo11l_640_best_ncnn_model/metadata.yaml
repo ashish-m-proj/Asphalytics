@@ -1,0 +1,29 @@
+description: Ultralytics YOLO11l model trained on /workspace/data/data.yaml
+author: Ultralytics
+date: '2026-09-23T03:24:58.649709+05:30'
+version: 8.4.159
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+head: Detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: longitudinal_transverse_crack
+  1: alligator_crack
+  2: block_crack
+  3: patching
+  4: pothole
+  5: weathering_raveling
+  6: lane_shoulder_drop_off
+  7: marking_manhole
+  8: edge_crack
+  9: bumps_and_sags
+args:
+  batch: 1
+  quantize: null
+channels: 3
+end2end: false

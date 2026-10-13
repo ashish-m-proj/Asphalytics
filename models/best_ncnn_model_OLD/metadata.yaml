@@ -1,0 +1,20 @@
+description: Ultralytics YOLO11n-seg model trained on pothole_data.yaml
+author: Ultralytics
+date: '2026-09-19T04:22:36.922662+05:30'
+version: 8.4.155
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: segment
+head: Segment
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: pothole
+args:
+  batch: 1
+  quantize: null
+channels: 3
+end2end: false
